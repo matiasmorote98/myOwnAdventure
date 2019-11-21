@@ -1,0 +1,73 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap');
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  /* padding, background-color */
+  background-color: #c3fdff;
+  padding: 50px;
+  padding-top: 65px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/*style h1, h2, h3, h4, h5, h6 */
+
+h1 {
+font-family: 'Roboto Slab', serif;
+}
+
+p {
+  /* color (font), font-size */
+  /* margin - how do we add more space between each paragraph? */
+}
+
+
+/* link ----> #ffeb3b -> on hover: #ffff72*/
+a {
+  /* color, text-decoration */
+  color: #E8050C;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0000ff;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+#storytitle{
+  color: #ff0000;
+}
+
+
+.choice-light{
+  background-color: #0053E3;
+  color: #fff
+}
+
+.choice-dark{
+  background-color: #003b8e;
+  color: #fff;
+}
+
+.choice-dark a:hover {
+  color: #ff0000;
+  text-decoration: underline;
+}
